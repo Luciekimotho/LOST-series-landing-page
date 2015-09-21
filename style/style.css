@@ -1,18 +1,44 @@
 .demo-layout-transparent {
-  background: url('../images/normal.jpg') center / cover;
-  height: 680px;
+  background: url('http://www.hdwallpapers.in/download/devious_maids-1920x1080.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: white;
+  color: black;
 }
 
-.mdl-layout{
-	height: 680px;
+.destiny{
+  text-align: center;
+  font-size: 300%;
 }
-
 .footer{
 
+}
+
+nav a{
+	color: black;
+}
+
+.demo-card-image.mdl-card {
+  width: 200px;
+  height: 200px;
+  /*background: url('../assets/demos/image_card.jpg') center / cover;*/
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#hugo{
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.hugoimg:hover #hugo{
+  display: block;
 }
