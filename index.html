@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Template</title>                                      <!--title of the file-->
+        <title>Lost</title>                                      <!--title of the file-->
         <script></script>                                               <!--any javascript files-->
-        <link href="style/style.css" rel="stylesheet" type="text/css" >                <!--style sheets for styling-->
 
         <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
         <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="style/style.css" rel="stylesheet" type="text/css" >                <!--style sheets for styling-->
     </head>
 
     <body>
-        <h3>This is my basic template.</h3>
 
-        <hr>
-        <div id="nav">                                                   <!--The navigation bar division with an id "nav"-->
-            <p>The navigation bar</p>
-            <ul>
-                <li class=""> <a href="#"> Home</a></li>
-                <li class=""> <a href="#"> About</a></li>
-                <li class=""> <a href="#"> Profile</a></li>
-                <li class=""> <a href="#"> Gallery</a></li>
-                <li class=""> <a href="#"> Contacts</a></li>
-            </ul>
+          <div class="demo-layout-transparent">
+            <header class="mdl-layout__header mdl-layout__header--transparent">
+              <div class="mdl-layout__header-row">
+                 <!-- Title -->
+                 <span class="mdl-layout-title">Title</span>
+                 <!-- Add spacer, to align navigation to the right -->
+                  <div class="mdl-layout-spacer"></div>
+                        <!-- Navigation -->
+                     <nav class="mdl-navigation">
+                         <a class="mdl-navigation__link" href="">Home</a>
+                         <a class="mdl-navigation__link" href="">Synopsis</a>
+                         <a class="mdl-navigation__link" href="">Cast</a>
+                         <a class="mdl-navigation__link" href="">Gallery</a>
+                     </nav>
+              </div>
+            </header>
+
+          <!--<main class="mdl-layout__content">
+             <p>Destiny Calls</p>
+          </main>
+-->
         </div>
 
-        <div>
+        <div class="trailer">
+            <h3>The LOST season 7 trailer HD</h3>
+        </div>
+
+        <div class="synopsis">
 
         </div>
 
+        <div class="cast">
 
-       <hr>
-        <footer>                                                            <!--Footer tag-->
-            <center>
+        </div>
+
+        <div class="gallery">
+
+        </div>
+
+        <div class="footer">
+            <footer>                                                            <!--Footer tag-->
+              <center>
                 <p>Designed by Lucie Kimotho<br> &copy 2015 <br>All rights reserved</p>
-            </center>
-        </footer>
+              </center>
+             </footer>
+        </div>
+
+
+
+
     </body>
 </html>
