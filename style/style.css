@@ -1,24 +1,63 @@
-.demo-layout-transparent {
-  background: url('http://www.hdwallpapers.in/download/devious_maids-1920x1080.jpg');
-  background-size: cover;
-  background-position: center;
+body{
+	background: url(http://www.hdwallpapers.in/download/devious_maids-1920x1080.jpg);
+	b/*ackground: cover;*/
+	background: center;
 }
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  color: black;
+
+.navmenu{
+	background-color: #0033CC;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	color: #888;
+	display: block;
+	text-align: center;
+}
+
+.navmenu ul{
+    margin: 0;
+	padding: 0;
+
+}
+
+.navmenu li{
+   display: inline-block;
+	list-style-type: none;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+
+
+.navmenu a{
+	color: #aaa;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	margin: 5px, 5px;
+}
+
+.navmenu a:hover{
+	background-color: #00124A;
+
+}
+
+.title{
+	text-align: center;
+	color:  ;
 }
 
 .destiny{
   text-align: center;
   font-size: 300%;
+  color: white;
 }
 .footer{
 
 }
 
-nav a{
-	color: black;
-}
 
 .demo-card-image.mdl-card {
   width: 200px;
