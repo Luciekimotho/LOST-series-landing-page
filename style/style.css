@@ -1,7 +1,6 @@
-body{
+.home{
 	background: url(http://www.hdwallpapers.in/download/devious_maids-1920x1080.jpg);
-	b/*ackground: cover;*/
-	background: center;
+	background: center cover;
 }
 
 .navmenu{
