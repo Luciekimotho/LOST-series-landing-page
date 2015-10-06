@@ -1,159 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="Angular App">
     <head>
         <title>Devious Maids</title>                                      <!--title of the file-->
         <script></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
-        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" type="text/css" href="">
         <link href="style/style.css" rel="stylesheet" type="text/css" >                <!--style sheets for styling-->
-    </head>
 
-    <body>
-     <div class="home">
-      <div class="mdl-grid">
-         <div class="mdl-cell mdl-cell--4-col"></div>
-         <div class="mdl-cell mdl-cell--4-col"></div>
-         <div class="mdl-cell mdl-cell--4-col">
-             <div id="header">
-               <nav class="navmenu">                                        <!--The navigation bar division with an id "nav"-->
-                 <ul>
-                   <li class=""> <a href="#"> Home</a></li>
-                   <li class=""> <a href="#"> About</a></li>
-                   <li class=""> <a href="#"> Profile</a></li>
-                   <li class=""> <a href="#"> Gallery</a></li>
-                   <li class=""> <a href="#"> Contacts</a></li>
-                 </ul>
-                </nav>
-             </div>
-         </div>
+           <!-- animate css links -->
+        <link rel="stylesheet" href="css/animate.css">
+               <!-- loading page links -->
+         <link href="style/please-wait.css" rel="stylesheet">
+            <!-- font-awesome -->
+         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+            <!-- bootstrap -->
+         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+        </head>
+
+    <body ng-controller="MainCtrl">
+      <div class="inner" ng-view>
+      <div id="home">
+        <h3 class="textie wow animated slideInDown">DEVIOUS <br>MAIDS</h3>
+        <p class="caption wow animated bounce">Whoever holds the dirt,<br>   holds the power"</p>
       </div>
 
+      <div id="">
 
-        </div>
-        <div class="trailer">
-            <h3>Devious Maids Season 4 Trailer</h3>
-            <video src=""></video>
-        </div>
+      </div>
 
-        <div class="synopsis">
-        <h3>SYNOPSIS</h3>
-          <p>
+      <div id="">
 
-After a somewhat mysterious sequence of events, an oceanic flight from Sydney to LA crashes on what appears to be a deserted island. The chance of being found and rescued is fairly small, so the survivors have to cope with a set of challenges. They have to learn to survive on the island, a mysterious place with enough dangers on its own. Also, they have to learn to live with each other if any success is to be expected. And finally, they have to live with themselves and their pasts. Interwoven with the events on the islands are flashbacks to the pasts of 14 main characters. Step by step, we learn a little more about their diverse and unexpected pasts as the group's quest to survive takes shape.
-- Written by RagingR2
+      </div>
 
-</p>
-        </div>
-
-        <div class="cast">
-         <h3>Cast<br>Series cast summary:</h3>
-          <div class="mdl-grid">
-           <div class="mdl-cell mdl-cell--2-col">
-              <div class="demo-card-image mdl-card mdl-shadow--2dp hugoimg">
-                 <img class="images " src="http://www1.pictures.gi.zimbio.com/Jorge+Garcia+Attends+Lost+Photocall+Madrid+BFpH0xA3sEkl.jpg" height="256px" width="256px" title="orge Garcia was born on April 28, 1973">
-                 <span id="hugo">Jorge Garcia was born on April 28, 1973 in Omaha, Nebraska, USA as Jorge Fernando Garcia. He is an actor, known for Lost (2004), The Wedding Ringer (2015) and Hawaii Five-0 (2010).</span>
-             </div>
-             <div class="mdl-card__supporting-text">Jorge Garcia</div>
-           </div>
-
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <img class="images" src="http://ia.media-imdb.com/images/M/MV5BNTk4MzU0MTcwNl5BMl5BanBnXkFtZTgwMTQ3OTI1MDE@._V1_UY317_CR15,0,214,317_AL_.jpg" height="256px" width="256px" >
-             </div>
-             <div class="mdl-card__supporting-text">Naveen Andrews</div>
-             </div>
-
-
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <img class="images" src="http://ia.media-imdb.com/images/M/MV5BMTcyMjA4OTQwMF5BMl5BanBnXkFtZTcwNTQwMzgyMQ@@._V1_UY317_CR7,0,214,317_AL_.jpg" height="256px" width="256px" >
-             </div>
-               <div class="mdl-card__supporting-text">Matthew Fox</div>
-           </div>
-
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <img class="images" src="http://ia.media-imdb.com/images/M/MV5BMTk5NTQ2NjMzNl5BMl5BanBnXkFtZTYwOTExMzY1._V1_UY317_CR1,0,214,317_AL_.jpg" height="256px" width="256px" >
-             </div>
-               <div class="mdl-card__supporting-text">Josh Holloway</div>
-           </div>
-
-
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <img class="images" src="http://ia.media-imdb.com/images/M/MV5BMTU3MTUzODkxMF5BMl5BanBnXkFtZTcwMTY1MTU5Mg@@._V1_UY317_CR32,0,214,317_AL_.jpg" height="256px" width="256px" >
-             </div>
-               <div class="mdl-card__supporting-text">Daniel Dae Kim</div>
-           </div>
-
-          <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <img class="images" src="http://ia.media-imdb.com/images/M/MV5BMjI0NTQ4MzgxMl5BMl5BanBnXkFtZTcwMzI1MzU2Nw@@._V1_UY317_CR62,0,214,317_AL_.jpg" height="256px" width="256px" >
-             </div>
-               <div class="mdl-card__supporting-text">Yunjin Kim</div>
-           </div>
-
-        </div>
-<!--
-        <div class="mdl-grid">
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title mdl-card--expand"></div>
-                 <div class="mdl-card__actions">
-                 <span class="demo-card-image__filename">lost.jpg</span>
-               </div>
-             </div>
-           </div>
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title mdl-card--expand"></div>
-                 <div class="mdl-card__actions">
-                 <span class="demo-card-image__filename">lost.jpg</span>
-               </div>
-             </div>
-           </div>
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title mdl-card--expand"></div>
-                 <div class="mdl-card__actions">
-                 <span class="demo-card-image__filename">lost.jpg</span>
-               </div>
-             </div>
-           </div>
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title mdl-card--expand"></div>
-                 <div class="mdl-card__actions">
-                 <span class="demo-card-image__filename">lost.jpg</span>
-               </div>
-             </div>
-           </div>
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title mdl-card--expand"></div>
-                 <div class="mdl-card__actions">
-                 <span class="demo-card-image__filename">lost.jpg</span>
-               </div>
-             </div>
-           </div>
-           <div class="mdl-cell mdl-cell--2-col">
-               <div class="demo-card-image mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title mdl-card--expand"></div>
-                 <div class="mdl-card__actions">
-                 <span class="demo-card-image__filename">lost.jpg</span>
-               </div>
-             </div>
-           </div>
-        </div>-->
-
-        </div>
-
-        <div class="gallery">
-
-        </div>
 
         <div class="footer">
             <footer>                                                            <!--Footer tag-->
@@ -162,9 +42,22 @@ After a somewhat mysterious sequence of events, an oceanic flight from Sydney to
               </center>
              </footer>
         </div>
-
-
-
-
+      </div>
+      <script type="text/javascript" src="js/please-wait.min.js"></script>
+      <script type="text/javascript">
+        window.loading_screen = window.pleaseWait({
+          logo: "images/timer.gif",
+          backgroundColor: '#f46d3b',
+          loadingHtml: <p> class='loading-message'>Good day fine user!</p>
+        });
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+      </script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+      <script src="js/main.js"></script>
+      <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     </body>
 </html>
